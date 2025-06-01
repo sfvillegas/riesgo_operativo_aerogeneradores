@@ -96,3 +96,5 @@ Los datasets utilizados en este proyecto están disponibles en:
 > ⚠️ **Nota importante:** Debido al tamaño de los archivos no se pueden visualizar directamente pero están correctamente almacenados en el repositorio y disponibles para su descarga.
 
 ---
+![image](https://github.com/user-attachments/assets/320a0f73-1025-4117-ad7f-d7e9a1ef3208)
+

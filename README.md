@@ -17,7 +17,7 @@ Desarrollar un modelo de clasificación multiclase utilizando técnicas de Apren
 
 ## Contexto - Relevancia Local y Problema a abordar
 
-Tierra del Fuego está dando importantes pasos en la transición energética mediante la instalación del parque eólico de Río Cullen, cercano a la ciudad de Río Grande. Sin embargo, las condiciones climáticas extremas de la región caracterizadas por fuertes vientos, bajas temperaturas y alta humedad— representan desafíos operativos significativos. La aplicación de modelos predictivos basados en Aprendizaje Automático permitirá: 
+Tierra del Fuego está dando importantes pasos en la transición energética mediante la instalación del parque eólico de Río Cullen, cercano a la ciudad de Río Grande. Sin embargo, las condiciones climáticas extremas de la región caracterizadas por fuertes vientos, bajas temperaturas y alta humedad representan desafíos operativos significativos. La aplicación de modelos predictivos basados en Aprendizaje Automático permitirá: 
 
 1. Detectar tempranamente condiciones de riesgo.
 
@@ -29,7 +29,7 @@ Tierra del Fuego está dando importantes pasos en la transición energética med
 
 Además, el éxito de este proyecto podría servir de modelo para replicar en otras regiones del país con condiciones similares.
 
-Este proyecto aborda un problema de clasificación multiclase supervisada, ya que busca etiquetar situaciones de operación de los aerogeneradores en tres niveles de riesgo: bajo, medio o alto.  Los modelos de Aprendizaje Automático a Utilizar Se consideran los siguientes modelos de clasificación: 
+Este proyecto aborda un problema de clasificación multiclase supervisada como se ha comentado al principio, ya que busca etiquetar situaciones de operación de los aerogeneradores en tres niveles de riesgo: bajo, medio o alto.  Los modelos de Aprendizaje Automático a utilizar son los siguientes modelos de clasificación: 
 • Random Forest: buen desempeño en datos ruidosos y de tamaño medio. 
 • XGBoost: eficiente y potente, aunque requiere ajustes. 
 • SVM: útil en datos bien estructurados, con alta precisión. 

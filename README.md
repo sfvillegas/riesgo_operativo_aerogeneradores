@@ -76,9 +76,11 @@ El enfoque está orientado a mejorar el mantenimiento preventivo y la eficiencia
 
 ## 📄 Origen de los Datos
 
-- **SCADA**: Datos históricos de sensores SCADA de aerogeneradores, sobre producción y variables operativas de aerogeneradores.
-- **Meteostat**: Datos meteorológicos históricos de Río Grande, Tierra del Fuego.
+- **SCADA**: Datos históricos de sensores SCADA de aerogeneradores, sobre producción y variables operativas de aerogeneradores. [Ver Página de Referencia (Kaggle Dataset)](https://www.kaggle.com/datasets/berkerisen/wind-turbine-scada-dataset)
 
+- **Meteostat**: Datos meteorológicos históricos de Río Grande, Tierra del Fuego. [Ver Meteostat](https://meteostat.net/es/place/ar/rio-grande?s=87934&t=2018-01-01/2018-12-18)
+
+  
 ## 🚀 Estado del Proyecto
 
 > **En Desarrollo**: Actualmente en fase de limpieza de datos, pendiente de iniciar el análisis exploratorio de datos (EDA).

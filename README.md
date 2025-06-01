@@ -76,9 +76,21 @@ El enfoque está orientado a mejorar el mantenimiento preventivo y la eficiencia
 
 ## 📄 Origen de los Datos
 
-- **SCADA**: Datos simulados o públicos sobre producción y variables operativas de aerogeneradores.
+- **SCADA**: Datos históricos de sensores SCADA de aerogeneradores, sobre producción y variables operativas de aerogeneradores.
 - **Meteostat**: Datos meteorológicos históricos de Río Grande, Tierra del Fuego.
 
 ## 🚀 Estado del Proyecto
 
 > **En Desarrollo**: Actualmente en fase de limpieza de datos, pendiente de iniciar el análisis exploratorio de datos (EDA).
+>
+## 📂 Acceso a los Datos Originales
+
+Los datasets utilizados en este proyecto están disponibles en:
+
+- Carpeta: `data/raw/`
+  - `T1.csv`: Dataset SCADA de aerogeneradores.
+  - `export.csv`: Dataset meteorológico histórico.
+
+> ⚠️ **Nota importante:** Debido al tamaño de los archivos no se pueden visualizar directamente pero están correctamente almacenados en el repositorio y disponibles para su descarga.
+
+---

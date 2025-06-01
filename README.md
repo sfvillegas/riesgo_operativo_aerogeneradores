@@ -11,11 +11,20 @@ Autor: Villegas, Sabrina
 
 # Predicción del Riesgo Operativo de Aerogeneradores en Condiciones Climáticas Extremas en Tierra del Fuego
 
-## 📚 Descripción General
+##  Objetivo General
 
-Este proyecto tiene como objetivo desarrollar un modelo de clasificación multiclase que prediga el **nivel de riesgo operativo** (bajo, medio, alto) de los aerogeneradores del Parque Eólico Río Cullen, ubicado en Tierra del Fuego, Argentina. Se basa en datos operativos de las turbinas y datos meteorológicos históricos de la zona.
+Este proyecto tiene como objetivo desarrollar un modelo de clasificación multiclase utilizando tecnicas de Aprendizaje Automatico supervisado que prediga el **nivel de riesgo operativo** (bajo, medio, alto) de los aerogeneradores del Parque Eólico Río Cullen, ubicado en Tierra del Fuego, Argentina. Se basa en datos operativos de las turbinas y datos meteorológicos históricos de la zona. El enfoque está orientado a mejorar el mantenimiento preventivo y la eficiencia operativa, anticipando condiciones climáticas adversas que puedan afectar el rendimiento y seguridad de los aerogeneradores.
 
-El enfoque está orientado a mejorar el mantenimiento preventivo y la eficiencia operativa, anticipando condiciones climáticas adversas que puedan afectar el rendimiento y seguridad de los aerogeneradores.
+## Contexto - Relevancia Local y Problema a abordar
+
+La provincia de Tierra del Fuego ha iniciado su transición hacia fuentes renovables mediante la instalación del parque eólico en Río Cullen, cercano a Río Grande. Sin embargo, las condiciones climáticas extremas de la región fuertes vientos, bajas temperaturas y alta humedad representan un gran desafío para el funcionamiento continuo  de los aerogeneradores. Este proyecto propone desarrollar un modelo de Aprendizaje Automático que permita predecir el nivel de riesgo operativo de estos aerogeneradores, utilizando variables meteorológicas y operativas. La detección temprana de condiciones de riesgo permitiría implementar estrategias de mantenimiento predictivo, optimizar recursos y evitar fallas costosas. Tierra del Fuego cuenta con un alto potencial para la generación de energía eólica. No obstante, su clima extremo implica riesgos operativos significativos. Aplicar Aprendizaje Automático en este contexto aporta soluciones innovadoras para garantizar el rendimiento, seguridad y sostenibilidad del sistema energético en la región. Además, el éxito del parque eólico de Río Cullen puede sentar un precedente para replicar proyectos similares en otras zonas del país.
+
+Este proyecto aborda un problema de clasificación multiclase supervisada, ya que busca etiquetar situaciones de operación de los aerogeneradores en tres niveles de riesgo: bajo, medio o alto.  Modelos de Aprendizaje Automático a Utilizar Se consideran los siguientes modelos de clasificación: 
+• Random Forest: buen desempeño en datos ruidosos y de tamaño medio. 
+• XGBoost: eficiente y potente, aunque requiere ajustes. 
+• SVM: útil en datos bien estructurados, con alta precisión. 
+• Árbol de Decisión y K-NN también serán considerados en fases exploratorias.
+
 
 ## 🗂️ Estructura del Proyecto
 

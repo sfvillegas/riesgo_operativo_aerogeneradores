@@ -3,7 +3,7 @@
 
 Carrera: Técnico en Ciencia de Datos e Inteligencia Artificial
 
-Prof. a cargo: Mirabete, Martín
+Docente a cargo: Mirabete, Martín
 
 Autor: Villegas, Sabrina
 

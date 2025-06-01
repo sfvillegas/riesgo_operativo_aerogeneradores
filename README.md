@@ -124,7 +124,9 @@ Este proyecto aborda un problema de clasificación multiclase supervisada como s
 1. Dataset Operativo (SCADA) : Contiene registros operativos de aerogeneradores, medidos a intervalos de 10 minutos,  con información sobre producción de energía y condiciones de operación. 
    Cantidad de instancias: 50,530 filas. 
    Características (columnas):
+   
    ![image](https://github.com/user-attachments/assets/a87327be-8364-4f48-b567-a30004e90cff)
+   
    Tipo de datos: Mixtos: datetime y float64.
    Observaciones relevantes:
                      o No hay valores nulos en el dataset después del preprocesamiento. 
@@ -132,10 +134,12 @@ Este proyecto aborda un problema de clasificación multiclase supervisada como s
                      o Se realizaron conversiones de fecha y hora al tipo datetime.
 
    
-2. Dataset Meteorológico : Contiene datos climáticos históricos de Río Grande, Tierra del Fuego, obtenidos de Meteostat.org, con variables meteorológicas diarias.
+3. Dataset Meteorológico : Contiene datos climáticos históricos de Río Grande, Tierra del Fuego, obtenidos de Meteostat.org, con variables meteorológicas diarias.
   Cantidad de instancias: 352 días.
   Características (columnas):
+
   ![image](https://github.com/user-attachments/assets/143792de-3db3-4610-b764-e5578678114c)
+  
   Tipo de datos: datetime y float64. 
   Observaciones relevantes: 
                    o Se eliminaron variables con muchos valores nulos como snow y tsun. 

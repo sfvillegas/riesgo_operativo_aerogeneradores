@@ -3,6 +3,8 @@
 
 Carrera: Técnico en Ciencia de Datos e Inteligencia Artificial
 
+Bloque: Aprendizaje Automático
+
 Docente a cargo: Mirabete, Martín
 
 Autor: Villegas, Sabrina

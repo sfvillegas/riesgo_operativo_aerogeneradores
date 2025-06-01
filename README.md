@@ -1,4 +1,6 @@
 ![image](https://github.com/user-attachments/assets/dd536d74-e3e5-455c-9d58-a9f3d8ea0a04)
+![image](https://github.com/user-attachments/assets/f86b124a-6006-4219-8812-c630561b6db8)
+
 
 # Predicción del Riesgo Operativo de Aerogeneradores en Condiciones Climáticas Extremas en Tierra del Fuego
 

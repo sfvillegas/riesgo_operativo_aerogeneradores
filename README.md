@@ -1,6 +1,10 @@
 ![image](https://github.com/user-attachments/assets/dd536d74-e3e5-455c-9d58-a9f3d8ea0a04)
 ![modif port](https://github.com/user-attachments/assets/0dce16f3-3d50-4db7-adfb-71b7b3cd69e7)
 
+Carrera: Técnico en Ciencia de Datos e Inteligencia Artificial
+Prof. a cargo: Mirabete, Martín
+Autor: Villegas, Sabrina
+
 # Predicción del Riesgo Operativo de Aerogeneradores en Condiciones Climáticas Extremas en Tierra del Fuego
 
 ## 📚 Descripción General

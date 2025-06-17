@@ -11,6 +11,8 @@ Autor: Villegas, Sabrina
 
 # Predicción del Riesgo Operativo de Aerogeneradores en Condiciones Climáticas Extremas en Tierra del Fuego
 
+VIDEO:  [Ver presentación en Google Drive]https://drive.google.com/file/d/1ytP0ts7k9qRphFSUDwLL4jBcXhZkfmPS/view?usp=sharing
+
 ## ENTREGA 1:
 ##  Objetivo General
 
@@ -151,10 +153,6 @@ NOTAS DE PREPROCESAMIENTO:
 - Se eliminaron duplicados en ambos datasets
 - Se eliminaron valores nulos de columnas irrelevantes para el modelo
 - Se unificaron ambos datasets por fecha (Date/time y date) para su posterior analisis y modelado correcto
-
-## 🚀 Estado del Proyecto
-
-> **En Desarrollo**: Actualmente en fase de limpieza de datos, pendiente de iniciar el análisis exploratorio de datos (EDA).
 
 
 ## 📂 Acceso a los Datos Originales

@@ -38,6 +38,8 @@ Este proyecto aborda un problema de clasificación multiclase supervisada como s
 • SVM: útil en datos bien estructurados, con alta precisión. 
 • Árbol de Decisión y K-NN también serán considerados en fases exploratorias.
 
+This study investigates a machine-learning model that classifies the operational risk level (low, medium, or high) of wind turbines exposed to extreme weather in the Río Cullen wind farm, Tierra del Fuego. Historical SCADA and meteorological data—including wind speed, active power, temperature, and wind direction—were aligned by timestamp, cleaned, balanced, and split (80%) into training and (20%) testing sets. The model was trained and evaluated using Decision Tree, Random Forest, K-Nearest Neighbors, and Support Vector Machine (SVM) algorithms. Although Random Forest reached 95 % accuracy, it under-detected the minority high-risk class; therefore, the SVM, which achieved 92 % accuracy and a macro F1-score of 0.75, was selected for its robustness to imbalanced multiclass data. The model can flag high-risk conditions early, and this enables operators to schedule preventive maintenance and avoid costly downtime in remote, harsh environments. In conclusion, predictive classification models improve the safety, reliability, and efficiency of renewable energy systems. These findings suggest that machine learning may accelerate Argentina’s energy transition by optimizing maintenance and ensuring continuous turbine operation.
+
 ## 🗂️ Estructura del Proyecto
 
 - `data/raw/`:
@@ -164,4 +166,14 @@ Los datasets utilizados en este proyecto están disponibles en:
   - `export.csv`: Dataset meteorológico histórico.
 
 > ⚠️ **Nota importante:** Debido al tamaño de los archivos no se pueden visualizar directamente pero están correctamente almacenados en el repositorio y disponibles para su descarga.
+
+## Conclusiones
+En el presente trabajo se desarrolló un análisis de clasificación multiclase sobre datos operativos y meteorológicos de aerogeneradores, orientado a predecir el nivel de riesgo operativo (Bajo, Medio o Alto) bajo condiciones climáticas extremas. Se entrenaron y evaluaron cuatro modelos de clasificación: Árbol de Decisión, Random Forest, SVM y K-Nearest Neighbors. A través de un enfoque basado en la métrica F1-Score macro, que es especialmente adecuada para contextos de clases desbalanceadas, el modelo SVM se destacó por alcanzar el mejor equilibrio entre precisión y exhaustividad en las predicciones superando en desempeño a los otros modelos evaluados. No obstante, se identificó que la predicción de las clases minoritarias, en particular la clase "Alto", continúa siendo un desafío. En consecuencia, se sugiere como línea de trabajo futura la optimización de hiperparámetros mediante técnicas de búsqueda como GridSearchCV, así como la implementación de métodos de balanceo más sofisticados como SMOTE-Tomek Links o ADASYN.
+Estas mejoras potenciales podrían incrementar significativamente la capacidad predictiva del modelo, contribuyendo al objetivo de optimizar el mantenimiento preventivo de los aerogeneradores en contextos climáticos adversos y, por ende, mejorar la eficiencia operativa y la seguridad en el parque eólico.
+
+## Cierre del Análisis
+el análisis realizado permitió identificar el modelo más adecuado para la predicción del riesgo operativo de aerogeneradores en condiciones climáticas extremas. El modelo SVM demostró un desempeño superior en términos de balance entre precisión y recall para las distintas clases, destacándose como la mejor alternativa dentro de los algoritmos evaluados.
+A pesar de los resultados alentadores, se identificaron oportunidades de mejora, particularmente en la clasificación de las clases minoritarias. La aplicación de técnicas avanzadas de ajuste de hiperparámetros y métodos de balanceo más sofisticados constituyen líneas de trabajo futuro recomendadas.
+Estos avances no solo permitirán mejorar la capacidad predictiva del modelo, sino que también aportarán valor en la optimización del mantenimiento preventivo, aumentando la confiabilidad y eficiencia del parque eólico analizado.
+
 

@@ -34,7 +34,6 @@ Además, el éxito de este proyecto podría servir de modelo para replicar en ot
 
 Este proyecto aborda un problema de clasificación multiclase supervisada como se ha comentado al principio, ya que busca etiquetar situaciones de operación de los aerogeneradores en tres niveles de riesgo: bajo, medio o alto.  Los modelos de Aprendizaje Automático a utilizar son los siguientes modelos de clasificación: 
 • Random Forest: buen desempeño en datos ruidosos y de tamaño medio. 
-• XGBoost: eficiente y potente, aunque requiere ajustes. 
 • SVM: útil en datos bien estructurados, con alta precisión. 
 • Árbol de Decisión y K-NN también serán considerados en fases exploratorias.
 

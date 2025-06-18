@@ -40,6 +40,16 @@ Este proyecto aborda un problema de clasificación multiclase supervisada como s
 
 This study investigates a machine-learning model that classifies the operational risk level (low, medium, or high) of wind turbines exposed to extreme weather in the Río Cullen wind farm, Tierra del Fuego. Historical SCADA and meteorological data—including wind speed, active power, temperature, and wind direction—were aligned by timestamp, cleaned, balanced, and split (80%) into training and (20%) testing sets. The model was trained and evaluated using Decision Tree, Random Forest, K-Nearest Neighbors, and Support Vector Machine (SVM) algorithms. Although Random Forest reached 95 % accuracy, it under-detected the minority high-risk class; therefore, the SVM, which achieved 92 % accuracy and a macro F1-score of 0.75, was selected for its robustness to imbalanced multiclass data. The model can flag high-risk conditions early, and this enables operators to schedule preventive maintenance and avoid costly downtime in remote, harsh environments. In conclusion, predictive classification models improve the safety, reliability, and efficiency of renewable energy systems. These findings suggest that machine learning may accelerate Argentina’s energy transition by optimizing maintenance and ensuring continuous turbine operation.
 
+## Preguntas claves
+## •	¿Qué variables climáticas y operativas tienen mayor correlación con situaciones de riesgo en los aerogeneradores?
+El análisis exploratorio identificó a la velocidad del viento (Wind Speed) y la potencia activa (LV ActivePower) con alta variabilidad y correlación directa. Además variables térmicas como tavg, tmin, tmax evidencian un entorno frío característico de Tierra del Fuego que puede influir en el rendimiento y riesgo operativo. Estas variables se consideran altamente relevantes debido a su impacto en el funcionamiento mecánico de las turbinas bajo condiciones extremas.
+
+## •	¿Puede un modelo de clasificación predecir eficazmente el nivel de riesgo en condiciones reales?
+Sí. los modelos desarrollados como el SVM demostraron una capacidad predictiva sólida alcanzando un F1-score macro superior a 0.75. Esta métrica, adecuada para contextos con clases desbalanceadas indica que el modelo puede predecir eficazmente los niveles de riesgo "Bajo", "Medio" y parcialmente "Alto". Aun así, se evidenció que las clases minoritarias como “Alto” siguen siendo un desafío lo que sugiere mejoras.
+
+## •	¿Qué algoritmo de clasificación ofrece el mejor desempeño ante este tipo de datos?
+El algoritmo de Máquinas de Vectores de Soporte (SVM) fue el que alcanzó el mejor equilibrio entre precisión y recall de todas las clases, según la métrica F1-score macro. Superó a modelos como Árbol de Decisión, Random Forest y K-Nearest Neighbors, lo que confirma su robustez en escenarios multiclase con distribución desigual.
+
 ## 🗂️ Estructura del Proyecto
 
 - `data/raw/`:

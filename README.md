@@ -12,7 +12,7 @@ Autor: Villegas, Sabrina
 # Predicción del Riesgo Operativo de Aerogeneradores en Condiciones Climáticas Extremas en Tierra del Fuego
 
 VIDEO:  [Ver presentación en Google Drive]https://drive.google.com/file/d/1ytP0ts7k9qRphFSUDwLL4jBcXhZkfmPS/view?usp=sharing
-## el video tambien se encuentra alojado en carpeta docs
+el video tambien se encuentra alojado en carpeta docs
 
 ## ENTREGA 1:
 ##  Objetivo General

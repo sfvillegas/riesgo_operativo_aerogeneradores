@@ -1,8 +1,6 @@
 ![image](https://github.com/user-attachments/assets/dd536d74-e3e5-455c-9d58-a9f3d8ea0a04)
 ![modif port](https://github.com/user-attachments/assets/0dce16f3-3d50-4db7-adfb-71b7b3cd69e7)
 
-el video tambien se encuentra alojado en carpeta docs
-
 Carrera: Técnico en Ciencia de Datos e Inteligencia Artificial
 
 Bloque: Aprendizaje Automático
@@ -14,6 +12,7 @@ Autor: Villegas, Sabrina
 # Predicción del Riesgo Operativo de Aerogeneradores en Condiciones Climáticas Extremas en Tierra del Fuego
 
 VIDEO:  [Ver presentación en Google Drive]https://drive.google.com/file/d/1ytP0ts7k9qRphFSUDwLL4jBcXhZkfmPS/view?usp=sharing
+## el video tambien se encuentra alojado en carpeta docs
 
 ## ENTREGA 1:
 ##  Objetivo General
